@@ -49,24 +49,18 @@ footer {
     left: 0;
     right: 0;
   }
-  
   footer p {
     font-size: large;
     text-align: center;
     color: black;
   }
-  
   .footer-list {
     margin: 1rem;
   }
-  
-  a,
-  img,
-  li {
+  a,img,li {
     display: inline;
   }
-  
   img {
     width: 40px;
-    padding: 1rem 0.2rem;
+    padding: 0.2rem 0.2rem;
   }
