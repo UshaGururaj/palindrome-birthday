@@ -125,6 +125,8 @@ function clickHandler(e){
             var [cntr, nextDate] = getNextPalindromeDate(date);
             output.innerText = `The next Palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${cntr} days! 😞`
         } 
+    } else {
+        output.innerText = "Please enter your Date of Birth.."
     }
 }
 checkBtn.addEventListener("click", clickHandler);
