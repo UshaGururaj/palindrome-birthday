@@ -122,9 +122,9 @@ function clickHandler(e){
         if(isPalindrome){
             output.innerText = "Yay! your birthday is a Palindrome!! 🥳"
         } else{
-            // var [cntr, nextDate] = getNextPalindromeDate(date);
-            // output.innerText = `The next Palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${cntr} days! 😞`
-            output.innerText = "Ohhh, your birthday is not a palindrome..😞"
+            var [cntr, nextDate] = getNextPalindromeDate(date);
+            output.innerText = `The next Palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${cntr} days! 😞`
+            // output.innerText = "Ohhh, your birthday is not a palindrome..😞"
         } 
     } else {
         output.innerText = "Please enter your Date of Birth.."

@@ -42,7 +42,43 @@ label{
     border-radius: 0.3rem;
     cursor: pointer;
 }
-footer {
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0.25rem;
+}
+.footer{
+    /* background-color:var(--light-gray); */
+    /* background-color: white; */
+    padding:2rem 0rem;
+    text-align: center;
+    /* color:black; */
+    /* border-top-right-radius:1rem; */
+    /* box-shadow: 0 1px 25px #E5E7EB; */
+    margin-top: 3rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    padding-inline-start:0px;
+}
+.footer .link{
+    color:black;
+}
+
+.footer ul{
+    padding-left:0px;
+}
+
+.footer-icon{
+    width:2rem;
+}
+/* footer {
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -63,4 +99,4 @@ footer {
   img {
     width: 40px;
     padding: 0.2rem 0.2rem;
-  }
+  } */
