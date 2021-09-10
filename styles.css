@@ -52,13 +52,8 @@ label{
     padding: 0.25rem;
 }
 .footer{
-    /* background-color:var(--light-gray); */
-    /* background-color: white; */
     padding:2rem 0rem;
     text-align: center;
-    /* color:black; */
-    /* border-top-right-radius:1rem; */
-    /* box-shadow: 0 1px 25px #E5E7EB; */
     margin-top: 3rem;
 }
 
@@ -78,25 +73,3 @@ label{
 .footer-icon{
     width:2rem;
 }
-/* footer {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  footer p {
-    font-size: large;
-    text-align: center;
-    color: black;
-  }
-  .footer-list {
-    margin: 1rem;
-  }
-  a,img,li {
-    display: inline;
-  }
-  img {
-    width: 40px;
-    padding: 0.2rem 0.2rem;
-  } */
